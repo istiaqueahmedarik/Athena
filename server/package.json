@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.0",
+    "@langchain/community": "^0.0.30",
+    "@langchain/openai": "^0.0.14",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.4",
+    "hono": "^4.0.3",
+    "html-to-text": "^9.0.5",
+    "langchain": "^0.1.20",
+    "node-html-parser": "^6.1.12",
+    "openai": "^4.28.0",
+    "puppeteer": "^19.11.1",
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "@types/node": "^20.11.17",
+    "tsx": "^3.12.2"
+  }
+}
